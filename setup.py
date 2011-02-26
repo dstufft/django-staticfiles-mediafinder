@@ -19,7 +19,7 @@ to reflect the new name.
 """
  
 setup(
-    name='django-staticfiles-mediafinder'
+    name='django-staticfiles-mediafinder',
     version=version,
     description="django-staticfiles-mediafinder",
     long_description=LONG_DESCRIPTION,
