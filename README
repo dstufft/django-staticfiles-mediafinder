@@ -1,0 +1,5 @@
+With Django 1.3, django-staticfiles is now a contrib application. With the move into contrib,
+a few changes were made, one of those changes was to rename the media sub directory an app
+could define, to static. This app is a finder that allows you to continue using the old 
+media directory. It is designed to be a temporary use app, until third party applications
+that were using the old media directory, switch to the new static directory.
