@@ -3,3 +3,9 @@ a few changes were made, one of those changes was to rename the media sub direct
 could define, to static. This app is a finder that allows you to continue using the old 
 media directory. It is designed to be a temporary use app, until third party applications
 that were using the old media directory, switch to the new static directory.
+
+
+Install this app into your PythonPath, and then add
+
+staticfiles_mediafinder.finders.AppDirectoriesFinder to your STATICFILES_FINDERS
+settings tuple.
